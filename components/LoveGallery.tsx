@@ -38,14 +38,14 @@ const images = [
 
 const captions = [
   "Cutie 🥹",
-  "Baddie 😎",
+  "😎",
   "Pretty ✨",
-  "My Love 🤍",
+  "Love 🤍",
   "Sunshine ☀️",
   // "Angel 🪽",
   "Beautiful 🌸",
-  "Dream Girl 💫",
-  "Queen 👑",
+  "💫",
+  "👑",
 ];
 
 const positions = [
