@@ -51,13 +51,14 @@ const DEFAULT_NOTES: NoteData[] = [
   {
     id: "n2",
     title: "02",
-    text: "Is butterfly ki tarah meri har khushi ka raasta bhi aakhir tum tak hi aakar rukta hai. 🫶",
+    text: "Like this butterfly always finding its way home, every path to my happiness somehow finds its way back to you. 🦋💛
+ 🫶",
     accent: "#C9A15E",
   },
   {
     id: "n3",
     title: "03",
-    text: "Tumne butterfly ko touch kiya... aur meri heartbeat phir se skip kar gayi. 😭❤️",
+    text: "My heart skips a beat every time you come close, just like you caught this little butterfly. 🦋💛",
     accent: "#7E9C68",
   },
   {
