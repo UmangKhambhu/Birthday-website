@@ -51,8 +51,7 @@ const DEFAULT_NOTES: NoteData[] = [
   {
     id: "n2",
     title: "02",
-    text: "Like this butterfly always finding its way home, every path to my happiness somehow finds its way back to you. 🦋💛
- 🫶",
+    text: "Like this butterfly always finding its way home, every path to my happiness somehow finds its way back to you. 🦋",
     accent: "#C9A15E",
   },
   {
