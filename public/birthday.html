@@ -424,15 +424,15 @@
 <script>
   // ---- EDIT THIS: real birth date/time, given in IST (India Standard Time) ----
   // 14:30 IST on Aug 2, 2003 == 09:00 UTC on Aug 2, 2003  (birth year set so the reveal lands on 23)
-  //const IST_OFFSET_MS = (5 * 60 + 30) * 60000;
+  const IST_OFFSET_MS = (5 * 60 + 30) * 60000;
   // const BIRTH_UTC_MS = Date.UTC(2003, 7, 2, 9, 0, 0);
   const BIRTH_UTC_MS = Date.UTC(2004, 08, 15);
-  const shiftedBirth = new Date(BIRTH_UTC_MS + IST_OFFSET_MS); // read with getUTC* for IST wall-clock parts
+  const shiftedBirth = new Date(BIRTH_UTC_MS ); // read with getUTC* for IST wall-clock parts
 
   function computeParts(){
     // shift "now" into the same IST-wall-clock domain so getUTC* reads IST time
     // regardless of the viewer's own device timezone
-    const shiftedNow = new Date(Date.now() + IST_OFFSET_MS);
+    const shiftedNow = new Date(Date.now() );
 
     const by = shiftedBirth.getUTCFullYear();
     const bmo = shiftedBirth.getUTCMonth();
